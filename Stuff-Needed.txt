@@ -1,10 +1,13 @@
-- Image for top of tab thingy
+- Logo image for top of tab thingy
 - Big image on the homepage (1534x650)
+- Small Text-only logo ~173x34 px
 - Tagline/Paragraph for homepage
 - Menu Categories
   - 131x131 images of products for homepage menu categories (circular looks really good, or just rounded edges)
   - Category names
-- Menu Items
-  - Images
-  - Names
-  - What category does it fall into?
+- Menu Items: REQUIRE ASAP:
+  - Name
+  - 360x280 pixel image (LIGHT COLORED BACKGROUND PREFERRED)
+  - Prices
+  - Description (1-2 sentences)
+  - Category
