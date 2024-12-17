@@ -1,0 +1,10 @@
+- Image for top of tab thingy
+- Big image on the homepage (1534x650)
+- Tagline/Paragraph for homepage
+- Menu Categories
+  - 131x131 images of products for homepage menu categories (circular looks really good, or just rounded edges)
+  - Category names
+- Menu Items
+  - Images
+  - Names
+  - What category does it fall into?

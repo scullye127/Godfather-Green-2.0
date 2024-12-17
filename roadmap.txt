@@ -1,0 +1,24 @@
+TO DO LIST:
+
+WEBSITE NEEDS:
+- FRONTEND: 
+  - Homepage: scrolls to menu?
+  - Order screen: give address
+  - Payment method: credit card?
+  - Menu page
+  - User status page: gives status on your order, price, tracking???
+- Admin status page: 
+  - show individual orders
+    - Can change order status? processing/out for delivery/delivered?
+  - list of items avaliable on page (gives ability to change menu quickly)
+  - Ability to add items to the menu
+- 
+
+THINGS TO LEARN:
+- React (for front end)
+- MongoDB (for database)
+- Express.js (for back end)
+- Node JS (web server)
+
+NOTES:
+- Save company logo in assets as logo
