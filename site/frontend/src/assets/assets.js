@@ -1,5 +1,6 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
+import logo_small from './logo_small.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
@@ -43,6 +44,7 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+import obama from './obama.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -62,6 +64,7 @@ import parcel_icon from './parcel_icon.png'
 
 export const assets = {
     logo,
+    logo_small,
     basket_icon,
     header_img,
     search_icon,
@@ -348,5 +351,12 @@ export const food_list = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Recovery Blends"
+    }, {
+        _id: "33",
+        name: "Obama Runtz",
+        image: obama,
+        price: 44,
+        description: "Uhhh, let me be clear",
+        category: "Recreational Use"
     }
 ]
