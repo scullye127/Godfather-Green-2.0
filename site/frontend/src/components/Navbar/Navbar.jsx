@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 import './Navbar.css'
 import { assets} from "../../assets/assets.js";
 import {Link} from "react-router-dom";
 //Navbar
-const Navbar = () => {
+const Navbar = ({setShowLogin}) => {
     //State variables
     const [menu, setMenu] = useState("home");
 
@@ -22,10 +23,14 @@ const Navbar = () => {
                     <img src={assets.basket_icon} alt="" />
                     <div className={"dot"}></div>
                 </div>
-                <button>sign in</button>
+                <button onClick={()=>setShowLogin(true)}>sign in</button>
             </div>
         </div>
     )
+}
+
+Navbar.propTypes = {
+    setShowLogin: PropTypes.func.isRequired,
 }
 
 export default Navbar;
