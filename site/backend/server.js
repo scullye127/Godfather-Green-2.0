@@ -16,5 +16,7 @@ app.get("/",(req,res)=>{
 })
 
 app.listen(port, ()=>{
-    console.log(`Server started on http://localhost:${port}`)
+    console.log(`Express server started on http://localhost:${port}`)
 })
+
+//mongodb+srv://scullye127:patriots87@cluster0.kcpob.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
