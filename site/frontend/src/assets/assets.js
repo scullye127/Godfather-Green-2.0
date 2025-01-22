@@ -3,7 +3,7 @@ import logo from './logo.png'
 import logo_small from './logo_small.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
-import menu_1 from './menu_1.png'
+import recreational from './recreational.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
 import menu_4 from './menu_4.png'
@@ -12,10 +12,10 @@ import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
 
-import food_1 from './food_1.png'
-import food_2 from './food_2.png'
-import food_3 from './food_3.png'
-import food_4 from './food_4.png'
+import wakinbacon from './wakinbacon.png'
+import mellow_moods from './mellow_moods.png'
+import smell_no from './smell_no.png'
+import detox from './detox.png'
 import food_5 from './food_5.png'
 import food_6 from './food_6.png'
 import food_7 from './food_7.png'
@@ -44,7 +44,6 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
-import obama from './obama.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -56,7 +55,7 @@ import facebook_icon from './facebook_icon.png'
 import twitter_icon from './twitter_icon.png'
 import cross_icon from './cross_icon.png'
 import selector_icon from './selector_icon.png'
-import rating_starts from './rating_starts.png'
+import rating_stars from './rating_stars.png'
 import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
@@ -68,7 +67,7 @@ export const assets = {
     basket_icon,
     header_img,
     search_icon,
-    rating_starts,
+    rating_stars,
     add_icon_green,
     add_icon_white,
     remove_icon_red,
@@ -88,31 +87,31 @@ export const assets = {
 //MENU LIST HOLDS ITEM CATEGORIES
 export const menu_list = [
     {
-        menu_name: "Recreational Use",
-        menu_image: menu_1
+        menu_name: "Recreational Blends",
+        menu_image: recreational
     },
     {
-        menu_name: "Specialty Blends",
+        menu_name: "Respiratory Support",
         menu_image: menu_2
     },
     {
-        menu_name: "In-House Varieties",
+        menu_name: "Stress/Calming",
         menu_image: menu_3
     },
     {
-        menu_name: "Dabs and Wax",
+        menu_name: "Mood/Energy",
         menu_image: menu_4
     },
     {
-        menu_name: "No-Smell Blends",
+        menu_name: "Flavor/Aroma",
         menu_image: menu_5
     },
     {
-        menu_name: "Sleeper Strains",
+        menu_name: "Medicinal/Functional",
         menu_image: menu_6
     },
     {
-        menu_name: "Wake n' Bake",
+        menu_name: "Experimentals",
         menu_image: menu_7
     },
     {
@@ -124,33 +123,33 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
-        image: food_1,
+        name: "Wakinbacon",
+        image: wakinbacon,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Recreational Use"
+        description: "Chamomile + Lemon Balm (50%), 31% THC (50%)",
+        category: "Recreational Blends"
     },
     {
         _id: "2",
-        name: "Veg salad",
-        image: food_2,
+        name: "Mellow Moods",
+        image: mellow_moods,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Recreational Use"
+        description: "1/8 THC <20%, Rose Petals 35%, Eucalyptus 45%, Indica",
+        category: "Recreational Blends"
     }, {
         _id: "3",
-        name: "Clover Salad",
-        image: food_3,
+        name: "Smell NO",
+        image: smell_no,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Recreational Use"
+        description: "(Clove, lavender, rose) - 70%, 19% THC, Sativa",
+        category: "Recreational Blends"
     }, {
         _id: "4",
-        name: "Chicken Salad",
-        image: food_4,
+        name: "Detox",
+        image: detox,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Recreational Use"
+        description: "Mullein (45%), 20% THC Sativa (20%), Thyme (35%)",
+        category: "Recreational Blends"
     }, {
         _id: "5",
         name: "Lasagna Rolls",
@@ -351,12 +350,5 @@ export const food_list = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Recovery Blends"
-    }, {
-        _id: "33",
-        name: "Obama Runtz",
-        image: obama,
-        price: 44,
-        description: "Uhhh, let me be clear",
-        category: "Recreational Use"
     }
 ]
