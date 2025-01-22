@@ -67,6 +67,12 @@
     right: -8px;
 }
 
+@media (max-width: 2000px) {
+    .navbar .logo {
+        width: 266px;
+    }
+}
+
 @media (max-width:1050px) {
     .navbar .logo {
         width: 140px;

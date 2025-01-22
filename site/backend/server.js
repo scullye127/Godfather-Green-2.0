@@ -1,5 +1,7 @@
 import express from "express"
 import cors from "cors"
+import {connectDB} from "./config/db.js"
+import weedRouter from "./routes/weedRouter.js";
 
 
 
@@ -11,6 +13,14 @@ const port = 4000
 app.use(express.json())
 app.use(cors())
 
+// db connection
+connectDB();
+
+//api endpoints
+app.use("/api/weed", weedRouter)
+
+app.use("/images",express.static('uploads'))
+
 app.get("/",(req,res)=>{
     res.send("API Working")
 })
@@ -19,4 +29,3 @@ app.listen(port, ()=>{
     console.log(`Express server started on http://localhost:${port}`)
 })
 
-//mongodb+srv://scullye127:patriots87@cluster0.kcpob.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
