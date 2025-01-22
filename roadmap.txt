@@ -2,10 +2,8 @@ TO DO LIST:
 
 WEBSITE NEEDS:
 - FRONTEND: 
-  - Homepage: scrolls to menu?
-  - Order screen: give address
   - Payment method: credit card?
-  - Menu page
+  - Age verification: must be 21
   - User status page: gives status on your order, price, tracking???
 - Admin status page: 
   - show individual orders
