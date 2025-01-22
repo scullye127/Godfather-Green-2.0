@@ -17,7 +17,7 @@ const addWeed = async (req, res) => {
     })
     try {
         await weed.save();
-        res.json({success:true, message:"Weed added"})
+        res.json({success:true, message:"Product added"})
     } catch (error) {
         console.log(error)
         res.json({success:false, message:"Add Error"})
@@ -36,7 +36,18 @@ const listWeed = async (req, res) => {
 }
 
 // Remove weed item
-const removeWeed = async (req, res) => {}
+const removeWeed = async (req, res) => {
+    try {
+        const weed = await weedModel.findById(req.body.id)
+        fs.unlink(`uploads/${weed.image}`,()=>{})
+
+        await weedModel.findByIdAndDelete(req.body.id);
+        res.json({success:true, message:"Product removed"})
+    } catch (error) {
+        console.log(error);
+        res.json({success:false, message:"Remove error"})
+    }
+}
 
 
 export {addWeed, listWeed, removeWeed}
