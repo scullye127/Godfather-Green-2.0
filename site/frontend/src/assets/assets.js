@@ -152,56 +152,56 @@ export const food_list = [
         category: "Recreational Blends"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Product name",
         image: food_5,
         price: 14,
         description: "Details",
         category: "Specialty Blends"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Product name",
         image: food_6,
         price: 12,
         description: "Details",
         category: "Specialty Blends"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Product name",
         image: food_7,
         price: 20,
         description: "Details",
         category: "Specialty Blends"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Product name",
         image: food_8,
         price: 15,
         description: "Details",
         category: "Specialty Blends"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Product name",
         image: food_9,
         price: 14,
         description: "Details",
         category: "In-House Varieties"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Product name",
         image: food_10,
         price: 22,
         description: "Details",
         category: "In-House Varieties"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Product name",
         image: food_11,
         price: 10,
         description: "Details",
         category: "In-House Varieties"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Product name",
         image: food_12,
         price: 12,
         description: "Details",
@@ -209,7 +209,7 @@ export const food_list = [
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Product name",
         image: food_13,
         price: 12,
         description: "Details",
@@ -217,77 +217,77 @@ export const food_list = [
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Product name",
         image: food_14,
         price: 18,
         description: "Details",
         category: "Dabs and Wax"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Product name",
         image: food_15,
         price: 16,
         description: "Details",
         category: "Dabs and Wax"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Product name",
         image: food_16,
         price: 24,
         description: "Details",
         category: "Dabs and Wax"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Product name",
         image: food_17,
         price: 14,
         description: "Details",
         category: "No-Smell Blends"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Product name",
         image: food_18,
         price: 12,
         description: "Details",
         category: "No-Smell Blends"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Product name",
         image: food_19,
         price: 20,
         description: "Details",
         category: "No-Smell Blends"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Product name",
         image: food_20,
         price: 15,
         description: "Details",
         category: "No-Smell Blends"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Product name",
         image: food_21,
         price: 14,
         description: "Details",
         category: "Sleeper Strains"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Product name",
         image: food_22,
         price: 22,
         description: "Details",
         category: "Sleeper Strains"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Product name",
         image: food_23,
         price: 10,
         description: "Details",
         category: "Sleeper Strains"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Product name",
         image: food_24,
         price: 12,
         description: "Details",
@@ -295,7 +295,7 @@ export const food_list = [
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Product name",
         image: food_25,
         price: 12,
         description: "Details",
@@ -303,49 +303,49 @@ export const food_list = [
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "Product name",
         image: food_26,
         price: 18,
         description: "Details",
         category: "Wake n' Bake"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "Product name",
         image: food_27,
         price: 16,
         description: "Details",
         category: "Wake n' Bake"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Product name",
         image: food_28,
         price: 24,
         description: "Details",
         category: "Wake n' Bake"
     }, {
         _id: "29",
-        name: "Butter Noodles",
+        name: "Product name",
         image: food_29,
         price: 14,
         description: "Details",
         category: "Recovery Blends"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Product name",
         image: food_30,
         price: 12,
         description: "Details",
         category: "Recovery Blends"
     }, {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Product name",
         image: food_31,
         price: 20,
         description: "Details",
         category: "Recovery Blends"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "Product name",
         image: food_32,
         price: 15,
         description: "Details",
