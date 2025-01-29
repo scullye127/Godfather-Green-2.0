@@ -12,6 +12,8 @@ const Add = () => {
         category: "Recreational Blends"
     })
 
+
+
     return (
         <div className='add'>
             <form className='flex-col'>
